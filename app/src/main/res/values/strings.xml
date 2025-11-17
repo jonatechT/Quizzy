@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+    <string name="score_format">Score: %1$d / %2$d</string>
+    <string name="score_default">Score: 0 / 0</string>
+    <string name="toast_correct">✔ Bonne réponse !</string>
+    <string name="toast_wrong">✘ Mauvaise réponse. La bonne réponse était</string>
+    <string name="button_continue">Continuer (Choisir un autre thème)</string>
+    <string name="button_quit">Arrêter le Quiz</string>
+    <string name="choose_category_title">Choisissez un thème de Quiz</string>
+</resources>

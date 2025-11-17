@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#f5f5f5"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_category_title"
+        android:textSize="28sp"
+        android:textColor="#333"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathématique"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/btn_physique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physique"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:backgroundTint="#2196F3"/>
+
+    <Button
+        android:id="@+id/btn_chimie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chimie"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/btn_sciences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sciences"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:backgroundTint="#9C27B0"/>
+
+    <Button
+        android:id="@+id/btn_litterature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Littérature"
+        android:layout_marginBottom="16dp"
+        android:padding="15dp"
+        android:backgroundTint="#F44336"/>
+
+</LinearLayout>
